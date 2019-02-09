@@ -24,6 +24,7 @@ def decrypt(*args):
             decrypted_char = str(chr(decrypted_char_ascii))
             decrypted_char_list.append(decrypted_char)
             n += 1
+        n = 1
         decrypted_string = ''.join(decrypted_char_list)
         decrypted_char_list = []
         decrypted_string_list.append(decrypted_string)

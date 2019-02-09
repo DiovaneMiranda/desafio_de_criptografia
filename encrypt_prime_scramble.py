@@ -23,6 +23,8 @@ def encrypt(*args):
             encrypted_char = str(chr(encrypted_char_ascii))
             encrypted_char_list.append(encrypted_char)
             n += 1
+        n = 1
         encrypted_string = ''.join(encrypted_char_list)
+        encrypted_char_list = []
         encrypted_string_list.append(encrypted_string)
     return encrypted_string_list
