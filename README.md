@@ -1,5 +1,5 @@
 # Desafio de Criptografia
-###### A Prime scramble cryptography challenge
+###### A Prime-Scramble cryptography challenge
 
 Desafio de criptografia:Desenvolver um algoritmo em qualquer linguagem de programação que tome como input uma string criptografada e a imprima descriptografada.
 Criptografia Prime-Scramble:O valor ASCII de cada membro da string é somado ao número primo de mesmo índice.  
