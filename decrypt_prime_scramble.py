@@ -16,8 +16,8 @@ def decrypt(*args):
         for encrypted_char in arg:
             # subtraia o número primo de mesma ordem do valor ascii do caractere
             decrypted_char_ascii = ord(encrypted_char) - nth_prime_number(n)
-            # enquanto o valor ascii resultante for menor que o limite mínimo,
-            # comece novamente a partir do limite superior. A lógica oposta a 
+            # enquanto o valor ascii resultante for menor que o limite inferior,
+            # comece novamente a partir do limite superior. 
             while decrypted_char_ascii < 33:
                 decrypted_char_ascii = 126 - (33 - decrypted_char_ascii)
             # converta o ascii descriptografado para caractere
