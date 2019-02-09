@@ -14,4 +14,10 @@ limite superior: VALOR DECIMAL = 125 <=> CARACTERE = }
 
 Note que caso a soma do caractere com o número primo seja maior do que o limite superior, ele deve começar novamente a partir do limite inferior.  
 Por exemplo:  
-i(105) + 23 = 128. 128 > 125. criptografia = 33 + (128 - 126) = 35 = #
+i(105) + 23 = 128. 128 > 125. criptografia = 33 + (128 - 126) = 35 = #  
+  
+  
+A solução é o algoritmo contido no modulo decrypt_prime_scramble.  
+Criei também a função decrypt para compreender melhor o problema e realizar alguns testes.
+  
+Execute o script teste_solucao_criptografia.py para testar.
