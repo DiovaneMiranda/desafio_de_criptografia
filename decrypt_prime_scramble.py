@@ -17,7 +17,7 @@ def decrypt(*args):
             # subtraia o número primo de mesma ordem do valor ascii do caractere
             decrypted_char_ascii = ord(encrypted_char) - nth_prime_number(n)
             # enquanto o valor ascii resultante for menor que o limite inferior,
-            # comece novamente a partir do limite superior. 
+            # comece a partir do limite superior de forma decrescente
             while decrypted_char_ascii < 33:
                 decrypted_char_ascii = 126 - (33 - decrypted_char_ascii)
             # converta o ascii descriptografado para caractere
